@@ -18,6 +18,8 @@
     package="com.example.android.sunshine">
 
     <!--TODO (2) Add the INTERNET permission-->
+    <!-- This permission is necessary in order for Sunshine to perform network access. -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
